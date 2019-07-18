@@ -3,12 +3,9 @@ class CashRegister
   
   def initialize(discount = {})
     @total = 0 
-    @discount = discount 
-    @price = 0 
-    @quantity = 0 
-    @items = [] 
-    @transactions = []
+    @discount = discount
   end
+  
   
   def add_item(title, price, quantity = nil)
     previous = @total
