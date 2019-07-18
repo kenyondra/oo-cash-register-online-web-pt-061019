@@ -16,4 +16,5 @@ class CashRegister
     i = quantity 
     until i == 0 do 
       @items << title 
+      
     
