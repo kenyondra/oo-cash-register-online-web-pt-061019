@@ -5,4 +5,5 @@ class CashRegister
     @total = 0 
     @discount = 0 
     @price = 0 
-    @
+    @quantity = 0 
+    
