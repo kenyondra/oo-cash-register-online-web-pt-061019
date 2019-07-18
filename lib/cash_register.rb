@@ -1,2 +1,4 @@
 class CashRegister
-  attr_accessor :total, :discount, :quani
+  attr_accessor :total, :discount, :quantity, :price
+  
+  
