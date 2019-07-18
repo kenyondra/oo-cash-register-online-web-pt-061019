@@ -15,7 +15,7 @@ class CashRegister
     i += 1 
   end
   else
-    @total += price
+    @items += price
     end
   end
   
