@@ -7,5 +7,8 @@ class CashRegister
     @price = 0 
     @quantity = 0 
     @items = [] 
-    @transactions = [] 
+    @transactions = []
+  end
+  
+  
     
