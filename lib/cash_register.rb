@@ -11,7 +11,8 @@ class CashRegister
     if quantity>1 
     1 = 0 
     while i<quantity
-    @items << 
+    @items << title 
+    
   else
     @total += price
     end
