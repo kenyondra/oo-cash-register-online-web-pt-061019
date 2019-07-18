@@ -6,6 +6,6 @@ class CashRegister
     @discount = 0 
     @price = 0 
     @quantity = 0 
-    @items = 0 
-    @transactions = 0 
+    @items = [] 
+    @transactions = [] 
     
