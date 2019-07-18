@@ -1,7 +1,7 @@
 class CashRegister
   attr_accessor :total, :discount, :quantity, :price
   
-  def initialize(discount = 0)
+  def initialize(discount = {})
     @total = 0 
     @discount = 0 
     @price = 0 
