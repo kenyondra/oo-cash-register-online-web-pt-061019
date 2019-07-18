@@ -13,7 +13,9 @@ class CashRegister
   def add_item(title, price, quantity = nil)
     previous = @total
     if quantity != nil
-    @total += price * quantity 
+    @total += price * quantity
+  else
+    
     until i == 0 do 
       @items << title 
       i -= 1 
