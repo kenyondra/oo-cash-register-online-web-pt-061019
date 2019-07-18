@@ -19,7 +19,7 @@ class CashRegister
     end
   @total += price * quantity
   @last_transaction_amount = @total 
-  
+  @total 
   
   def apply_discount 
     if @discount > 0 
