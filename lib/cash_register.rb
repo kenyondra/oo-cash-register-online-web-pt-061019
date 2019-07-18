@@ -8,7 +8,7 @@ class CashRegister
   
   
   def add_item(title, price, quantity = 1)
-    if quantity != nil
+    if quantity>1
     @total += price * quantity
   else
     @total += price
