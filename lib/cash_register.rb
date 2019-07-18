@@ -14,5 +14,6 @@ class CashRegister
     @total += price * quantity
     @transactions << price 
     i = quantity 
-    until i == 
+    until i == 0 do 
+      
     
